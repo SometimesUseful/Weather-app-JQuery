@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Weather</title>
+</head>
+<body>
+<header class="w-header">
+    <h1 class="w-header-text">Current weather</h1>
+</header>
+<main>
+    <input type="text" placeholder="Enter a city" class="w-input">
+    <button class="w-btn">Show</button>
+
+    <div class="w-placeholder">
+        <h2 class="city"></h2>
+        <p class="time"></p>
+        <div class="weather-img"></div>
+        <p class="weather-desk"></p>
+        <p class="temp"></p>
+        <p class="wind"></p>
+        <p class="humidity"></p>
+    </div>
+    <div class="error-placeholder">
+        <h1 class="err"></h1>
+    </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
